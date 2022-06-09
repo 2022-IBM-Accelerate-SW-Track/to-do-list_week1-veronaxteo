@@ -6,12 +6,11 @@ export default class About extends Component {
   render() {
     return (
       <div>
-        {/* <p>Design your About me page </p> */}
         <div>
           <div class='split left'>
             <div className='centered'>
               <img className='profile_image'
-              // src='verona_teo_profile.jpg'
+              src={verona_teo_profile}
               alt='profile pic'
               ></img>
             </div>
